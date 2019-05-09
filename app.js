@@ -1101,33 +1101,6 @@ function addPersistentMenu(){
           "title":"Help",
           "type":"postback",
           "payload":"HELP"
-        },
-        {
-          "title":"Nested Menu Example",
-          "type":"nested",
-          "call_to_actions":[
-            {
-              "title":"Who am I",
-              "type":"postback",
-              "payload":"WHO"
-            },
-            {
-              "title":"Joke",
-              "type":"postback",
-              "payload":"joke"
-            },
-            {
-              "title":"Contact Info",
-              "type":"postback",
-              "payload":"CONTACT"
-            }
-          ]
-        },
-        {
-          "type":"web_url",
-          "title":"Latest News",
-          "url":"http://foxnews.com",
-          "webview_height_ratio":"full"
         }
       ]
     },
@@ -1145,8 +1118,24 @@ function addPersistentMenu(){
     } else if (response.body.error) {
         console.log('Error: ', response.body.error)
     }
-})
-
+}),
+   //*************************************************************************************************************
+   request({
+    url: 'https://graph.facebook.com/v2.6/me/pass_thread_control',
+    qs: { access_token: PAGE_ACCESS_TOKEN  },
+    method: 'POST',
+    json:{
+      "recipient": {"id": userID},
+      "target_app_id": 263902037430900
+    }
+  }, (error, res, body) => {
+    if (error) {
+      console.error('Error sending messages: ', error)
+    } else if (res.body.error) {
+      console.error('Error: ', res.body.error)
+    }
+  })
+//*******************************************************************************************************************
 }
 
 function removePersistentMenu(){
