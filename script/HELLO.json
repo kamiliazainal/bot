@@ -9,11 +9,6 @@
             "type": "postback",
             "title": "Help",
             "payload": "help"
-          },
-                {
-            "type": "postback",
-            "title": "Live",
-            "payload": "live"
           }
 
            ]
