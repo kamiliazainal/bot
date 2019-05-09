@@ -1,0 +1,10 @@
+{
+      "text": "Thank you. We will contact you as soon as possible. If you have other questions, please click on Repeat.",
+      "quick_replies": [
+        {
+          "content_type":"text",
+          "title":"Repeat",
+          "payload":"REPEAT"
+        }
+      ]
+}

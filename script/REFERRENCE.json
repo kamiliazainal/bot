@@ -1,0 +1,15 @@
+
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Please click on Send Number",
+          "buttons":[{
+            "type": "postback",
+            "title": "Send Number",
+            "payload": "add keyword"
+          }]
+        }
+      }
+}

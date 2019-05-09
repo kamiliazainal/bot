@@ -1,0 +1,42 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+         "template_type": "generic",
+          "elements": [
+                          {
+            "title": "Swipe left/right for more options.",
+            "subtitle": "Select one",
+            "buttons": [
+            {
+              "type": "postback",
+              "title": "Package I booked",
+              "payload": "package"
+            },
+            {
+              "type": "postback",
+              "title": "Hotel I booked",
+              "payload": "accomodation"
+            },
+            {
+              "type": "postback",
+              "title": "Promotions available",
+              "payload": "promotions"
+            }
+            ]
+          }, 
+          {
+            "title": "Swipe left/right for more options.",
+            "subtitle": "Select one",
+            "buttons": [
+           {
+              "type": "postback",
+              "title": "Others",
+              "payload": "others"
+            }
+            ]
+          }
+          ]
+        }
+      }
+    }

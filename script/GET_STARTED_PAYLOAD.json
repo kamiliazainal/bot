@@ -1,0 +1,17 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hello! How can we help you today?  Type 'help' at anytime to start again",
+          "buttons":[
+          {
+            "type": "postback",
+            "title": "Help",
+            "payload": "help"
+          }
+
+           ]
+        }
+      }
+}

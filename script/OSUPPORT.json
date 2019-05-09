@@ -1,0 +1,20 @@
+{
+      "text": "What support do you require ? ",
+      "quick_replies": [
+        {
+          "content_type":"text",
+          "title":"Cancellation",
+          "payload":"cancellation"
+        },
+        {
+          "content_type":"text",
+          "title":"Date change",
+          "payload":"date"
+        },
+        {
+          "content_type":"text",
+          "title":"Others",
+          "payload":"other"
+        }
+      ]
+}

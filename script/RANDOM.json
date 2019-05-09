@@ -1,0 +1,14 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Sorry. I don't understand that. Please click Help to continue.",
+          "buttons":[{
+            "type": "postback",
+            "title": "Help",
+            "payload": "help"
+          }]
+        }
+      }
+}

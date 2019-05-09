@@ -1,0 +1,25 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+         "template_type": "generic",
+          "elements": [
+                          {
+            "title": "Select one",
+            "buttons": [
+            {
+              "type": "postback",
+              "title": "Booking number",
+              "payload": "referrence"
+            },
+            {
+              "type": "postback",
+              "title": "Other support",
+              "payload": "osupport"
+            }
+          ]
+        }
+                ]
+      }
+    }
+}

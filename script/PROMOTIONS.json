@@ -1,0 +1,10 @@
+{
+      "text": "List of our latest discount or promo code",
+      "quick_replies": [
+        {
+          "content_type":"text",
+          "title":"Promo Code",
+          "payload":"promo"
+        }
+      ]
+}

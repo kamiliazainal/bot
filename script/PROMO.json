@@ -1,0 +1,21 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Use the promo code below to get your discount. Click for more info",
+          "buttons":[
+            {
+              "type": "web_url",
+              "url":"https://www.halaltrekker.com/tour/3-days-2-nights-snorkeling-redang-beach-resort/",
+              "title": "10% OFF: REDANGNOW"
+            },
+            {
+              "type": "web_url",
+              "url":"https://www.halaltrekker.com/tour/3-days-2-nights-discovery-fullboard-at-perhentian-island-resort/",
+              "title": "10% OFF: HOLIDAYNOW"
+            }
+           ]
+        }
+      }
+}

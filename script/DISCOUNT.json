@@ -1,0 +1,25 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+         "template_type": "generic",
+          "elements": [
+                          {
+            "title": "Click for more info",
+            "buttons": [
+            {
+              "type": "web_url",
+              "url":"www.google.com",
+              "title": "Discount 1"
+            },
+            {
+              "type": "web_url",
+              "url":"www.yahoo.com",
+              "title": "Discount 2"
+            }
+          ]
+        }
+                ]
+      }
+    }
+}

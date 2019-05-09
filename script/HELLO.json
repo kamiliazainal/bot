@@ -1,0 +1,22 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hello! How can we help you today? Please click Help to continue with bot or Live to chat with our support ",
+          "buttons":[
+          {
+            "type": "postback",
+            "title": "Help",
+            "payload": "help"
+          },
+                {
+            "type": "postback",
+            "title": "Live",
+            "payload": "live"
+          }
+
+           ]
+        }
+      }
+}
