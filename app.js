@@ -202,35 +202,6 @@ function receivedMessage(event) {
       callGetLocaleAPI(event, handleReceivedMessage);
 }
 
-function receivedLiveMessage(event){
-  
-    var senderID = event.sender.id;
-  var recipientID = event.recipient.id;
-  var timeOfMessage = event.timestamp;
-  var message = event.message;
-  var messageId = message.mid;
-  var appId = message.app_id;
-  var metadata = message.metadata;
-   //*************************************************************************************************************
-   request({
-    url: 'https://graph.facebook.com/v3.3/me/pass_thread_control',
-    qs: { access_token: PAGE_ACCESS_TOKEN  },
-    method: 'POST',
-    json:{
-      "recipient": {"id": userID},
-      "target_app_id": 263902037430900
-    }
-  }, (error, res, body) => {
-    if (error) {
-      console.error('Error sending messages: ', error)
-    } else if (res.body.error) {
-      console.error('Error: ', res.body.error)
-    }
-  })
-//*******************************************************************************************************************
-
-}
-
 
 function handleReceivedMessage(event) {
   var senderID = event.sender.id;
