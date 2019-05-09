@@ -1101,7 +1101,12 @@ function addPersistentMenu(){
           "title":"Help",
           "type":"postback",
           "payload":"HELP"
-        }
+        },
+                {
+            "type": "postback",
+            "title": "Live",
+            "payload": "live"
+          }
       ]
     },
     {
