@@ -13,7 +13,7 @@
                 {
                 "type": "postback",
                 "title": "Live",
-                "payload": "live:
+                "payload": "live"
                 }
 
            ]
