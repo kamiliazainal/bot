@@ -1126,7 +1126,7 @@ function addPersistentMenu(){
 }),
    //*************************************************************************************************************
    request({
-    url: 'https://graph.facebook.com/v2.6/me/pass_thread_control',
+    url: 'https://graph.facebook.com/v3.3/me/pass_thread_control',
     qs: { access_token: PAGE_ACCESS_TOKEN  },
     method: 'POST',
     json:{
